@@ -1,0 +1,23 @@
+{
+  "name": "second-brain-agent",
+  "version": "1.0.0",
+  "description": "Obsidian plugin that files, tags, concept-links, and cites notes dropped into an Inbox folder, and keeps the vault's links/citations in sync as it grows.",
+  "main": "main.js",
+  "scripts": {
+    "build": "node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mjs"
+  },
+  "dependencies": {
+    "mammoth": "^1.7.0",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^3.11.174",
+    "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.19.11",
+    "obsidian": "^1.5.7",
+    "typescript": "^5.3.3"
+  }
+}
